@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./Signup.css";
 import VerifyEmailForm from "../Components/VerifyEmailForm";
-import Verified from "../Components/Verified";
+// import Verified from "../Components/Verified";
 import CTAButton from "../Components/CTAButton";
 import { useState } from "react";
 
@@ -116,7 +116,7 @@ function SignUpPage() {
       </div>
       <div className={`active ${showActive ? "show" : ""}`}>
         <VerifyEmailForm toggleActive={toggleActive} />
-        <Verified toggleActive={toggleActive} />
+        {/* <Verified toggleActive={toggleActive} /> */}
       </div>
     </div>
   );
