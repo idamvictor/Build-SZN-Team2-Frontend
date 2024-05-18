@@ -4,6 +4,8 @@ import Signup from "./Pages/Signup";
 import Homepage from "./Pages/Homepage";
 import PageNotFound from "./Pages/PageNotFound";
 import Login from "./Pages/Login";
+import Newpassword from "./Pages/Newpassword";
+
 
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
         <Route path="/" element={<Signup />} />
         <Route path="Login" element={<Login />} />
         <Route path="*" element={<PageNotFound />} />
+        <Route path="*" element={<Newpassword/>} />
       </Routes>
     </BrowserRouter>
   );
