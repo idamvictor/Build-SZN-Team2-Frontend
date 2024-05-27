@@ -1,0 +1,125 @@
+
+:root {
+  --background-500: #11001e;
+  --background-300: #605468;
+  --background-400: #41334b;
+  --text-700: #b5aeb5;
+  --text-500: #fff5ff;
+  --button-gradient: linear-gradient(262deg, #c83cd4 -12.99%, #6736a6 98.21%);
+}
+
+.main {
+  background-color: var(--background-500);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 37px 76px 80px;
+}
+
+@media (max-width: 991px) {
+  .main {
+    padding: 0 20px;
+  }
+}
+
+.logo {
+  width: 98px;
+  align-self: start;
+}
+
+.header {
+  text-align: center;
+  color: #fff;
+  margin-top: 24px;
+}
+
+.title {
+  font: 700 36px/122% "Inter", sans-serif;
+}
+
+.description {
+  color: var(--text-700);
+  margin-top: 12px;
+  font: 500 16px/112.5% "Inter", sans-serif;
+}
+
+.planContainer {
+  background-color: var(--background-300);
+  margin-top: 38px;
+  width: 100%;
+  max-width: 1194px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+@media (max-width: 991px) {
+  .planContainer {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.planCard {
+  background-color: var(--background-400);
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  padding: 20px;
+  width: 32%;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+}
+
+@media (max-width: 991px) {
+  .planCard {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+
+.planTitle {
+  font: 600 20px;
+}
+
+.planPrice {
+  font: 700 36px/122%;
+  margin-top: 8px;
+}
+
+.planPeriod {
+  color: var(--text-700);
+  font: 14px/114%;
+  margin-top: 8px;
+}
+
+.planFeatures {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0;
+  text-align: left;
+}
+
+.planFeatureItem {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.planFeatureImage {
+  width: 24px;
+  margin-right: 12px;
+}
+
+.planButton {
+  margin-top: auto;
+  padding: 16px 32px;
+  border-radius: 4px;
+  background-image: var(--button-gradient);
+  color: var(--text-500);
+  font: 600 16px;
+  cursor: pointer;
+  border: none;
+}
