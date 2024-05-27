@@ -1,0 +1,474 @@
+/* ____________LandingPage_________ */
+
+.navButton{
+  /* border: 5px solid red; */
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  gap: 8px;
+}
+.navButton Button{
+  width: 116px;
+  height: 56px;
+  /* border: 5px solid blue; */
+}
+.navButton .Button1 {
+  background: #11001E;
+}
+
+.landingSectionOne{
+  /* border: 5px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+#sectionOneDiv{
+  /* border: 5px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 703px;
+  background: transparent;
+  gap: 24px;
+  height: 254px;
+  top: 230px;
+  position: absolute;
+  z-index: 2;
+}
+#sectionOneDiv h1{
+  /* border: 5px solid blue; */
+  font-weight: 600;
+  width: 330px;
+  height: 174px;
+  size: 48px;
+  line-height: 40.09px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#sectionOneDiv p{
+  width: 600px;
+  display: flex;
+  text-align: center;
+}
+
+.sectionOne img{
+  position: relative;
+  z-index: 1;
+}
+
+.landingSectionTwo{
+  /* border: 5px solid red; */
+  height: 567px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07000D;
+}
+
+.mediaWrap{
+  /* border: 5px solid green; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 1280px;
+  height: 407px;
+  gap: 72px;
+  background: #07000D;
+}
+
+.mediaIconDiv{
+  /* border: 5px solid pink; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1280px;
+  height: 291px;
+  gap: 24px;
+  background: #07000D;
+}
+.mediaIconDiv img{
+  /* border: 1px solid #9225FF; */
+  border-radius: 16px;
+  padding: 16px;
+  gap: 10px;
+  display: flex;
+  width: 96px;
+  height: 96px;
+}
+.imgDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.innerImgDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  height: 156px;
+  width: 300px;
+}
+.mediaIconDiv h3{
+  /* border: 5px solid red; */
+  display: flex;
+  align-items: center;
+  height: 24px;
+  line-height: 24.2px;
+  size: 20px;
+}
+
+.landingSectionThree{
+  /* border: 5px solid red; */
+  display: flex;
+  width: 100%;
+  height: 566px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #11001E;
+  gap: 133px;
+}
+.landingSection3Div1{
+  /* border: 5px solid purple; */
+  width: 400px;
+  height: 174px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.landingSection3Div1 h1{
+  /* border: 5px solid green; */
+  width: 300px;
+  height: 78px;
+  font-weight: 500;
+  size: 32px;
+}
+.landingSection3Div2{
+  display: flex;
+}
+.landingSection3Div2 img{
+  /* border: 5px solid brown; */
+  width: 628px;
+  height: 416px;
+  border-radius: 24px;
+}
+
+.landingSectionFour{
+  /* border: 5px solid palegreen; */
+  display: flex;
+  flex-direction: row;
+  background: #11001E;
+  justify-content: center;
+  align-items: center;
+  height: 566px;
+  gap: 133px;
+}
+.landingSection4Div1{
+  display: flex;
+}
+.landingSection4Div2{
+  /* border: 5px solid purple; */
+  width: 400px;
+  height: 174px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.landingSection4Div1 img{
+  /* border: 5px solid brown; */
+  width: 628px;
+  height: 416px;
+  border-radius: 24px;
+}
+.landingSection4Div2 h1{
+  /* border: 5px solid green; */
+  width: 300px;
+  height: 78px;
+  font-weight: 500;
+  size: 32px;
+}
+
+.landingSectionFive{
+  /* border: 5px solid pink; */
+  display: flex;
+  padding: 80px;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  background: #07000D;
+  gap: 72px;
+}
+.pricing{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 5px solid white; */
+  width: 122px;
+  height: 44px;
+  size: 36px;
+}
+
+.planDiv{
+  display: flex;
+  flex-direction: row;
+  width: 1280px;
+  height: 543px;
+  justify-content: space-between;
+}
+.plan{
+  border: 1px solid #3D106B;
+  width: 410.67px;
+  height: 543px;
+  gap: 40px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+#plan{
+  background: #3D106B;
+}
+.plan Button{
+  width: 362px;
+  border-radius: 4px;
+  padding: 16px, 32px, 16px, 32px;
+}
+#planButton{
+  background: #3D106B;
+}
+.planInnerDiv{
+  /* border: 5px solid red; */
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+#planInnerDiv{
+  background: #3D106B;
+}
+.landingSectionSix{
+  /* border: 5px solid yellow; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 740px;
+  padding: 96px, 80px, 96px, 80px;
+  gap: 159px;
+  background: #07000D;
+}
+
+.landingInputsDiv{
+  /* border: 5px solid red; */
+  width: 402px;
+  height: 380px;
+  gap: 36px;
+}
+.landingInputsDiv p{
+  margin-bottom: 25px;
+}
+.landingSectionSixContactDiv{
+  width: 400px;
+  height: 299px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.Inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Input3{
+  display: flex;
+  height: 120px;
+}
+.landingSectionSeven{
+  /* border: 5px solid pink; */
+  width: 100%;
+  height: 513px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 150px;
+  align-items: center;
+  background: #11001E;
+}
+.landingSectionSevenHP{
+  width: 130px;
+  height: 226px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.landingSectionSevenMainDiv{
+  /* border: 5px solid yellow; */
+  width: 1200px;
+  display: flex;
+  height: 400px;
+  flex-direction: row;
+  margin-left: 20px;
+  gap: 100px;
+}
+.landingSectionSevenDiv2{
+  /* border: 5px solid brown; */
+  display: flex;
+  gap: 150px;
+  flex-direction: column;
+}
+
+.landingSectionSocial{
+  /* border: 5px solid pink; */
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.landingSectionSocial img{
+  /* border: 5px solid red; */
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.landingSectionImg{
+  /* border: 5px solid blue; */
+  display: flex;
+  gap: 10px;
+}
+.landingSectionSevenDiv1{
+  /* border: 5px solid red; */
+  width: 570px;
+  height: 230px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 88px;
+}
+
+.landingSectionSevenDiv3{
+  /* border: 5px solid red; */
+  width: 100%;
+  height: 36px;
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+}
+
+
+
+
+
+
+  /* ____________ProfilePage_________ */
+
+.profileHeading {
+  /* border: 3px solid goldenrod; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  width: 75%;
+  gap: 30px;
+  color: #ffff;
+}
+.profileHeading .section1 {
+  display: flex;
+  align-items: center;
+  width: 60%;
+
+}
+.profileHeading .profileIcon {
+  width: 100px;
+  height: 100px;
+}
+.profileHeading1 {
+  /* border: 3px solid red; */
+  width: 100%;
+}
+
+.profileHeading1B {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px; 
+  width: 85%; 
+}
+
+.profileHeading2{
+  /* border: 3px solid greenyellow; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+.profileHeading2 span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profileHeading2A{
+  /* border: 3px solid blue; */
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.profileHeading2A .section1 {
+  gap: 10px;
+}
+.profileHeading2A .section1 p{
+  color: grey;
+  width: 700px;
+}
+.profileHeading2A .profileIcon {
+  color: orange;
+}
+.profileHeading2A Button {
+  width: 25%;
+  margin: auto;
+}
+.ProfileDetails{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 60%;
+  gap: 30px;
+  margin-top: 50px;
+  color: #ffff;
+  background: #0C0015;
+  padding: 50px;
+}
+.ProfileDetails1{
+  /* border: 3px solid yellow; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  width: 70%;
+}
+
+.premiumButton {
+  /* border: 3px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+  width: 10%;
+}

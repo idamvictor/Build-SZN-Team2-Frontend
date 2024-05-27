@@ -1,0 +1,69 @@
+/* GetTracks.module.css */
+.favouriteTracksContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  color: white;
+}
+
+.trackCard {
+  flex: 0 0 auto;
+  width: 200px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.trackImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.trackInfo {
+  padding: 10px;
+  text-align: center;
+}
+
+.spotifyLogo {
+  width: 48px;
+  height: 20px;
+}
+
+.nameLogoContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.artistName{
+  font-size: 12px;
+}
+
+.imageTitleContainer{
+  display: flex;
+}
+
+.mainContainer{
+  color: white;
+  border: 1px solid grey;
+  width: 90%;
+  margin: 48px auto;
+  padding: 24px;
+}
+
+.artistSeeAllContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.seeAllLink{
+  color: #FF604B;
+  text-decoration: none;
+}
+
+.artists{
+  margin-left: 10px;
+}
